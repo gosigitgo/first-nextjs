@@ -13,6 +13,7 @@ const navigation = [
   { key: 3, name: 'Vote Kementerian', href: '/vote-pusat', targetSegment: 'vote-pusat' },
   { key: 4, name: 'Pemilihan Akhir', href: '/pleno', targetSegment: 'pleno' },
   { key: 5, name: 'Vote Pegawai', href: '/vote-pegawai', targetSegment: 'vote-pegawai' },
+  { key: 6, name: 'TodoList', href: '/todos', targetSegment: 'todos' },
 ]
 
 function classNames(...classes: any[]) {

@@ -28,15 +28,13 @@ const titles = [
         key: 5,
         name: 'Hero of The Month',
         targetSegment: 'vote-pegawai'
+    }, {
+        key: 6,
+        name: 'Todo List',
+        targetSegment: 'todos'
     }
 ]
 
-export const metadata = {
-    title: '.: Penghargaan Bhakti Karya Husada :.',
-    description: 'Aplikasi Penghargaan Bhakti Karya Husada',
-    developer: 'sgt.wibowo@gmail.com',
-    icons: '/images/favicon.png'
-}
 
 const roboto = Roboto({weight: '400', subsets: ['latin'], display: 'swap'})
 
