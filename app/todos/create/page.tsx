@@ -29,6 +29,7 @@ const Page = () => {
         })
 
         setIsLoading(false)
+        router.refresh()
         router.push('/todos')
     }
 
